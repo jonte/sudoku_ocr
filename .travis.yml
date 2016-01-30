@@ -1,0 +1,6 @@
+before_install:
+- make install_dependencies
+language: cpp
+compiler:
+- clang
+- gcc
