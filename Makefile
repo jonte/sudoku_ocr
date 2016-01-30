@@ -11,3 +11,6 @@ install_dependencies:
 
 clean:
 	rm sudoku_ocr
+
+test:
+	./runtests.sh
