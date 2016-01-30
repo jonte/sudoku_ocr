@@ -1,9 +1,10 @@
 before_install:
 - make install_dependencies
 sudo: required
+dist: trusty
 language: cpp
 compiler:
 - clang
 - gcc
 script:
-    make
+    make && make test
