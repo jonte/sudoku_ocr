@@ -1,5 +1,6 @@
 before_install:
 - make install_dependencies
+sudo: required
 language: cpp
 compiler:
 - clang
